@@ -1,0 +1,29 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin:2px solid green;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  .save{
+    align-items: center;
+    float: inline-end;
+  }
+  .save:hover{
+    background-color: red;
+  }
+  .saved:hover{
+    background-color: green;
+  }
+  .container{
+    padding: 25px ;
+    margin: 30px ;
+    border: black;
+  }

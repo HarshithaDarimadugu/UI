@@ -1,0 +1,31 @@
+<div class="container">
+<mat-toolbar style="background-color: none;">
+    <marquee><h1>WELCOME TO DOCTOR DASHBOARD</h1></marquee>
+    <span class="example-spacer"></span>
+    
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" style="float: right;">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <a href="login"> <mat-icon>account_circle</mat-icon></a>
+          <span>Profile</span>
+        
+        </button>
+        
+        <button mat-menu-item>
+          <a href="login"> <mat-icon>logout</mat-icon></a>
+          <span>Logout</span>
+        </button>
+      </mat-menu>
+  </mat-toolbar>
+ <mat-card style="margin-right: 1000px; height: 500px; background-color: skyblue;">
+  <h1 style="margin-left: 85px;">Tokens</h1>
+<mat-dialog-actions class="patient">
+  <button class="click" mat-raised-button color="primary" (click)="openDialog()">patient name</button>
+  </mat-dialog-actions>
+  <mat-dialog-actions class="patient"> 
+     <button class="click" mat-raised-button style="background-color: blue" (click)="openDialog()">Patient Name</button>
+</mat-dialog-actions>
+</mat-card>
+</div>

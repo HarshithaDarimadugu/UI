@@ -1,0 +1,18 @@
+button{
+    display: flex;
+}
+.example-card {
+    /* max-width: 500px; */
+    
+    
+  }
+  body{
+    background-color: skyblue;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+    
+  }
+  .click{
+    float: right;
+  }
